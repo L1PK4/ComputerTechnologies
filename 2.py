@@ -1,0 +1,1 @@
+print((lambda k: k[k.find('(') + 1:k.find(')')])(input('Введите строку: ')))
