@@ -1,6 +1,5 @@
 from functools import reduce
 
-
 n = int(input("Enter n: "))
 print("Enter {0}x{0} matrix:".format(n))
 a = [list(map(float, input().split(maxsplit=n))) for i in range(n)]
