@@ -24,5 +24,8 @@ class Textbook(Book):
 	def __str__(self):
 		return super().__str__() + ' for {} class'.format(self.clas)
 
-a = Textbook()
-print(a)
+a = Textbook('Физика', 2018, 'Александр Пёрышкин',7)
+b = Book('Атлант расправил плечи', 1957, 'Айн Рэнд')
+c = Magazine('Квант', 'Наука')
+d = Printed('Проба пера')
+print(a,b,c,d, sep = '\n')
